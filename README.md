@@ -1,5 +1,31 @@
-# Native-PHP-API-
-Native PHP API that can handle request types like JSON or XML
+# Native PHP Rest API
+
+● Support data in 2 formats: JSON and XML
+● Authorize request hash from the key, data and timestamp
+  Supported payment types:
+
+ ● Credit card
+○ Credit card number
+○ Expiration date
+○ CVV2
+○ Email
+
+ ● Mobile
+○ Phone number
+
+ Validation:
+● Credit card:
+○ Credit card number based on Luhn's algorithm
+○ Expiration date
+○ CVV2
+○ Email
+○ All data is required
+
+● Mobile
+○ Phone number format
+Response:
+● Valid: Response same type as request sent
+● Error code/Message
 
 
 Hashing Code : 
